@@ -1,0 +1,40 @@
+  :pnlgrp ... 
+  :copyr.Italian Power Association
+  :var name=prmenu. 
+ 
+  :keyl name=menukeys 
+        help=keyl. 
+  :keyi key=F3 
+        help=exit 
+        action='exit set' 
+        varupd=no. 
+  F3=Exit 
+  :keyi ... 
+  :keyi ... 
+  :ekeyl. 
+ 
+  :panel name=... 
+  Menu Title 
+ 
+  :menu ... 
+  :topinst.Select one of the following: 
+ 
+  :menui option=1 
+         action='cmd dsplib qtemp' 
+         help='menu/option1'. 
+  Display QTEMP library 
+  :menui ... 
+  :menui ... 
+  :emenu. 
+ 
+  :cmdline size=long. 
+  Selection or command 
+ 
+  :epanel. 
+ 
+  :help ... 
+  :ehelp. 
+  :help ... 
+  :ehelp. 
+ 
+  :epnlgrp. 
