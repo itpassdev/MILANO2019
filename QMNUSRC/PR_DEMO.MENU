@@ -44,6 +44,12 @@ Termina il menù.
 :eparml.
 :ehelp.
 .*
+:help name='menu/help'.
+WebSockets e IBM i - pratica
+:p.
+Spiegazione.
+:ehelp.
+.*
 :help name='menu/option1'.
 Opzione 1: Fa qualcosa di utile
 :xh3.Opzione 1: Fa qualcosa di utile davvero
