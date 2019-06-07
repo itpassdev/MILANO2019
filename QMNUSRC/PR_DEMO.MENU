@@ -45,22 +45,22 @@ Demo Websocket e IBM i
 Display QTEMP library 
 .*
 :menui option=2 
-  action='ENDTCPSVR SERVER(*HTTP) HTTPSVR(TRAIN)'
+  action='cmd ENDTCPSVR SERVER(*HTTP) HTTPSVR(TRAIN)'
   help='menu/termina01'. 
 Termina DE_TRAIN_01 
 .*
 :menui option=3 
-  action='ENDTCPSVR SERVER(*HTTP) HTTPSVR(TRAIN)'
+  action='cmd ENDTCPSVR SERVER(*HTTP) HTTPSVR(TRAIN)'
   help='menu/avvia01'. 
 Avvia DE_TRAIN_01 
 .*
 :menui option=4 
-  action='ENDTCPSVR SERVER(*HTTP) HTTPSVR(MILANO19)'
+  action='cmd ENDTCPSVR SERVER(*HTTP) HTTPSVR(MILANO19)'
   help='menu/termina03'. 
 Termina DE_TRAIN_03 
 .*
 :menui option=5 
-  action='ENDTCPSVR SERVER(*HTTP) HTTPSVR(MILANO19)'
+  action='cmd ENDTCPSVR SERVER(*HTTP) HTTPSVR(MILANO19)'
   help='menu/avvia03'. 
 Avvia DE_TRAIN_03 
 .*
