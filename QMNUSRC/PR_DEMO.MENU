@@ -14,7 +14,8 @@ Italian Power Association
 F3=Exit
 :ekeyl. 
 .*
-:panel name=prmenu. 
+:panel name=prmenu
+       keyl=menukeys. 
 Demo Websocket e IBM i
 .*
 :menu DEPTH='*'
