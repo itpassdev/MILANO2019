@@ -6,12 +6,24 @@ Italian Power Association
 :var name=zmenu. 
 .*
 :keyl name=menukeys. 
-.*
+:keyi key=F1 
+        help=helpf1 
+        action=help. 
+F1=Help
 :keyi key=F3 
         help=exit 
         action='exit set' 
         varupd=no. 
 F3=Exit
+:keyi key=enter
+      help=enter
+      action=enter.
+:keyi key=help
+      help=help
+      action=help.
+:keyi key=home
+      help=home
+      action=home.
 :ekeyl. 
 .*
 :panel name=prmenu
@@ -38,6 +50,19 @@ Display QTEMP library
 Scelta o comando 
 .* 
 :epanel.  
+.*
+:help name=keyl.
+Tasti funzione - Aiuto
+:xh3.Tasti funzione
+:ehelp.
+.*
+:help name=helpf1.
+:parml.
+:pt.F1=Help
+:pd.
+Fornisce aiuto.
+:eparml.
+:ehelp.
 .*
 :help name=exit.
 :parml.
