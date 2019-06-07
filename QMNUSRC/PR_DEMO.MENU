@@ -36,5 +36,14 @@ Scelta o comando
 .* 
 :epanel.  
 .*
+:help name=exit.
+:parml.
+:pt.F3=Exit
+:pd.
+Termina il menù.
+:eparml.
+:ehelp.
+.*
+testo
 :epnlgrp. 
 .*
