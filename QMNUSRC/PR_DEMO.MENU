@@ -64,6 +64,30 @@ Fornisce aiuto.
 :eparml.
 :ehelp.
 .*
+:help name=enter.
+:parml.
+:pt.Invio
+:pd.
+Invio.
+:eparml.
+:ehelp.
+.*
+:help name=help.
+:parml.
+:pt.Aiuto
+:pd.
+Fornisce aiuto su help.
+:eparml.
+:ehelp.
+.*
+:help name=home.
+:parml.
+:pt.Home
+:pd.
+Fornisce aiuto su home.
+:eparml.
+:ehelp.
+.*
 :help name=exit.
 :parml.
 :pt.F3=Exit
