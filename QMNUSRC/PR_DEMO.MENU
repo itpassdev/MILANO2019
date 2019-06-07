@@ -1,40 +1,25 @@
   :pnlgrp ... 
   :copyr.Italian Power Association
   :var name=prmenu. 
- 
-  :keyl name=menukeys 
-        help=keyl. 
+  :keyl name=menukeys. 
   :keyi key=F3 
         help=exit 
         action='exit set' 
         varupd=no. 
-  F3=Exit 
-  :keyi ... 
-  :keyi ... 
+  F3=Exit
   :ekeyl. 
- 
-  :panel name=... 
-  Menu Title 
- 
-  :menu ... 
-  :topinst.Select one of the following: 
- 
+  :panel name=prmenu 
+  Demo Websocket e IBM i
+  :menu DEPTH='*'
+        SCROLL=YES
+        BOTSEP=SPACE.
+  :topinst.Scegli una delle seguenti opzioni:
   :menui option=1 
-         action='cmd dsplib qtemp' 
-         help='menu/option1'. 
+         action='cmd dsplib qtemp'. 
   Display QTEMP library 
-  :menui ... 
-  :menui ... 
   :emenu. 
- 
   :cmdline size=long. 
-  Selection or command 
+  Scelta o comando 
  
-  :epanel. 
- 
-  :help ... 
-  :ehelp. 
-  :help ... 
-  :ehelp. 
- 
+  :epanel.  
   :epnlgrp. 
