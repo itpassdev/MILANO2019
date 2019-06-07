@@ -15,8 +15,11 @@ F3=Exit
 :ekeyl. 
 .*
 :panel name=prmenu
+       help='menu/help'
        keyl=menukeys
-       help='menu/help'.
+       enter='MSG CPD9817 QCPFMSG'
+       panelid=zmenu
+       topsep=sysnam.
 Demo Websocket e IBM i
 .*
 :menu DEPTH='*'
