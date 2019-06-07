@@ -25,7 +25,8 @@ Demo Websocket e IBM i
 :topinst.Scegli una delle seguenti opzioni:
 .*
 :menui option=1 
-action='cmd dsplib qtemp'. 
+  action='cmd dsplib qtemp'
+  help='menu/option1'. 
 Display QTEMP library 
 .*
 :emenu. 
