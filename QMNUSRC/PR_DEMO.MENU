@@ -15,6 +15,7 @@ F3=Exit
 :ekeyl. 
 .*
 :panel name=prmenu
+       help=menu/help
        keyl=menukeys. 
 Demo Websocket e IBM i
 .*
