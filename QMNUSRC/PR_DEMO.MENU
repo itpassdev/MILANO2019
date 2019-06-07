@@ -50,7 +50,7 @@ Display QTEMP library
 Termina DE_TRAIN_01 
 .*
 :menui option=3 
-  action='cmd ENDTCPSVR SERVER(*HTTP) HTTPSVR(TRAIN)'
+  action='cmd STRTCPSVR SERVER(*HTTP) HTTPSVR(TRAIN)'
   help='menu/avvia01'. 
 Avvia DE_TRAIN_01 
 .*
@@ -60,7 +60,7 @@ Avvia DE_TRAIN_01
 Termina DE_TRAIN_03 
 .*
 :menui option=5 
-  action='cmd ENDTCPSVR SERVER(*HTTP) HTTPSVR(MILANO19)'
+  action='cmd STRTCPSVR SERVER(*HTTP) HTTPSVR(MILANO19)'
   help='menu/avvia03'. 
 Avvia DE_TRAIN_03 
 .*
