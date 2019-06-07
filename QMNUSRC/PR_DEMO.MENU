@@ -44,6 +44,26 @@ Demo Websocket e IBM i
   help='menu/option1'. 
 Display QTEMP library 
 .*
+:menui option=2 
+  action='ENDTCPSVR SERVER(*HTTP) HTTPSVR(TRAIN)'
+  help='menu/termina01'. 
+Termina DE_TRAIN_01 
+.*
+:menui option=3 
+  action='ENDTCPSVR SERVER(*HTTP) HTTPSVR(TRAIN)'
+  help='menu/avvia01'. 
+Avvia DE_TRAIN_01 
+.*
+:menui option=4 
+  action='ENDTCPSVR SERVER(*HTTP) HTTPSVR(MILANO19)'
+  help='menu/termina03'. 
+Termina DE_TRAIN_03 
+.*
+:menui option=5 
+  action='ENDTCPSVR SERVER(*HTTP) HTTPSVR(MILANO19)'
+  help='menu/avvia03'. 
+Avvia DE_TRAIN_03 
+.*
 :emenu. 
 .*
 :cmdline size=long. 
@@ -105,6 +125,34 @@ Spiegazione.
 :help name='menu/option1'.
 Opzione 1: Fa qualcosa di utile
 :xh3.Opzione 1: Fa qualcosa di utile davvero
+:p.
+Spiegazione.
+:ehelp.
+.*
+:help name='menu/termina01'.
+Termina DE_TRAIN_01
+:xh3.Termina DE_TRAIN_01
+:p.
+Spiegazione.
+:ehelp.
+.*
+:help name='menu/avvia01'.
+Avvia DE_TRAIN_01
+:xh3.Avvia DE_TRAIN_01
+:p.
+Spiegazione.
+:ehelp.
+.*
+:help name='menu/termina03'.
+Termina DE_TRAIN_03
+:xh3.Termina DE_TRAIN_03
+:p.
+Spiegazione.
+:ehelp.
+.*
+:help name='menu/avvia03'.
+Avvia DE_TRAIN_03
+:xh3.Avvia DE_TRAIN_03
 :p.
 Spiegazione.
 :ehelp.
