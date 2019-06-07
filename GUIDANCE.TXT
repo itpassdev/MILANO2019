@@ -1,1 +1,2 @@
 QCLSRC    BUILD     CLP       Installazione
+QMNUSRC   PR_DEMO   MENU      PowerRuby installation demo
