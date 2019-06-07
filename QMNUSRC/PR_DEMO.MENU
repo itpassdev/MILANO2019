@@ -44,5 +44,13 @@ Termina il menù.
 :eparml.
 :ehelp.
 .*
+:help name='menu/option1'.
+Opzione 1: Fa qualcosa di utile
+:xh3.Opzione 1: Fa qualcosa di utile davvero
+:p.
+Spiegazione.
+:ehelp.
+.*
+
 :epnlgrp. 
 .*
