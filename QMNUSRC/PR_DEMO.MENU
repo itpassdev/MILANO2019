@@ -80,7 +80,7 @@ Cambia directory
 Avvia shell PASE
 .*
 :menui option=9
-  action='cmd paserie/itpassdev'
+  action='cmd paserie/itpassdev GIT_USER(itpassdev) PACKAGEN(MILANO2019)'
   help='menu/nohelp'. 
 Aggiorna progetto
 .*
