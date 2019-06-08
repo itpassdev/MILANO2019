@@ -71,8 +71,13 @@ Avvia Redis
 .*
 :menui option=7
   action='cmd cd ''/www/MILANO19/htdocs/Milano10Giugno2019/current'''
-  help='menu/redis'. 
+  help='menu/nohelp'. 
 Cambia directory 
+.*
+:menui option=8
+  action='cmd call qp2term'
+  help='menu/nohelp'. 
+Avvia shell PASE
 .*
 :emenu. 
 .*
@@ -172,6 +177,13 @@ Avvia Redis server a 64bit
 :xh3.Avvia Redis
 :p.
 Spiegazione Avvia Redis
+:ehelp.
+.*
+:help name='menu/nohelp'.
+Aiuto non fornito
+:xh3.Aiuto non fornito
+:p.
+Aiuto non fornito
 :ehelp.
 .*
 
