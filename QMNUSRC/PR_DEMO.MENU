@@ -78,6 +78,8 @@ Cambia directory
   action='cmd call qp2term'
   help='menu/nohelp'. 
 Avvia shell PASE
+rails console
+ActionCable.server.broadcast 'web_events_channel', event: "<hr/>"
 .*
 :menui option=9
   action='cmd paserie/itpassdev GIT_USER(itpassdev) PACKAGEN(MILANO2019)'
