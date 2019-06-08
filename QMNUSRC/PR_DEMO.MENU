@@ -69,6 +69,11 @@ Avvia DE_TRAIN_03
   help='menu/redis'. 
 Avvia Redis 
 .*
+:menui option=7
+  action='cmd cd /www/MILANO19/htdocs/Milano10Giugno2019/current'
+  help='menu/redis'. 
+Avvia Redis 
+.*
 :emenu. 
 .*
 :cmdline size=long. 
