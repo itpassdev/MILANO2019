@@ -77,8 +77,6 @@ Cambia directory
 :menui option=8
   action='cmd call qp2term'
   help='menu/nohelp'. 
-Avvia shell PASE
-rails console
 ActionCable.server.broadcast 'web_events_channel', event: "<hr/>"
 .*
 :menui option=9
