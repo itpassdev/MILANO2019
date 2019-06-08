@@ -79,6 +79,11 @@ Cambia directory
   help='menu/nohelp'. 
 Avvia shell PASE
 .*
+:menui option=9
+  action='cmd paserie/itpassdev'
+  help='menu/nohelp'. 
+Aggiorna progetto
+.*
 :emenu. 
 .*
 :cmdline size=long. 
