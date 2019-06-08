@@ -64,6 +64,11 @@ Termina DE_TRAIN_03
   help='menu/avvia03'. 
 Avvia DE_TRAIN_03 
 .*
+:menui option=6 
+  action='cmd MILANO2019/REDISSRV'
+  help='menu/redis'. 
+Avvia DE_TRAIN_03 
+.*
 :emenu. 
 .*
 :cmdline size=long. 
@@ -155,6 +160,13 @@ Avvia DE_TRAIN_03
 :xh3.Avvia DE_TRAIN_03
 :p.
 Spiegazione.
+:ehelp.
+.*
+:help name='menu/redis'.
+Avvia Redis server a 64bit
+:xh3.Avvia Redis
+:p.
+Spiegazione Avvia Redis
 :ehelp.
 .*
 
