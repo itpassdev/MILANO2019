@@ -67,7 +67,7 @@ Avvia DE_TRAIN_03
 :menui option=6 
   action='cmd MILANO2019/REDISSRV'
   help='menu/redis'. 
-Avvia DE_TRAIN_03 
+Avvia Redis 
 .*
 :emenu. 
 .*
