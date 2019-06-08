@@ -1,2 +1,4 @@
 QCLSRC    BUILD     CLP       Installazione
 QMNUSRC   PR_DEMO   MENU      PowerRuby installation demo
+QCLSRC    REDISSRV  CLP       Avvio redis 64 bit
+
