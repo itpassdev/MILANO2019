@@ -44,9 +44,9 @@ Demo Websocket e IBM i
 :topinst.Scegli una delle seguenti opzioni:
 .*
 :menui option=1 
-  action='cmd dsplib qtemp'
+  action='cmd wrkactjob job(rails*)'
   help='menu/option1'. 
-Display QTEMP library 
+Gestisci i processi Rails
 .*
 :menui option=2 
   action='cmd ENDTCPSVR SERVER(*HTTP) HTTPSVR(TRAIN)'
