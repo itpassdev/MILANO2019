@@ -51,22 +51,22 @@ Gestisci i processi Rails
 :menui option=2 
   action='cmd ENDTCPSVR SERVER(*HTTP) HTTPSVR(TRAIN)'
   help='menu/termina01'. 
-Termina DE_TRAIN_01 
+Termina tutorial 1 
 .*
 :menui option=3 
   action='cmd STRTCPSVR SERVER(*HTTP) HTTPSVR(TRAIN)'
   help='menu/avvia01'. 
-Avvia DE_TRAIN_01 
+Avvia tutorial 1
 .*
 :menui option=4 
   action='cmd ENDTCPSVR SERVER(*HTTP) HTTPSVR(MILANO19)'
   help='menu/termina03'. 
-Termina DE_TRAIN_03 
+Termina tutorial 3 
 .*
 :menui option=5 
   action='cmd STRTCPSVR SERVER(*HTTP) HTTPSVR(MILANO19)'
   help='menu/avvia03'. 
-Avvia DE_TRAIN_03 
+Avvia tutorial 3
 .*
 :menui option=6 
   action='cmd MILANO2019/REDISSRV'
