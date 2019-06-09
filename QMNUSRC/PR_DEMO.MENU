@@ -56,7 +56,7 @@ Termina tutorial 1
 :menui option=3 
   action='cmd STRTCPSVR SERVER(*HTTP) HTTPSVR(TRAIN)'
   help='menu/avvia01'. 
-Avvia tutorial 1
+Avvia   tutorial 1
 .*
 :menui option=4 
   action='cmd ENDTCPSVR SERVER(*HTTP) HTTPSVR(MILANO19)'
@@ -66,7 +66,7 @@ Termina tutorial 3
 :menui option=5 
   action='cmd STRTCPSVR SERVER(*HTTP) HTTPSVR(MILANO19)'
   help='menu/avvia03'. 
-Avvia tutorial 3
+Avvia   tutorial 3
 .*
 :menui option=6 
   action='cmd MILANO2019/REDISSRV'
