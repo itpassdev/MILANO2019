@@ -1,7 +1,7 @@
 :pnlgrp. 
 .*
 :copyr.
-Italian Power Association
+Italian Power Association (autore: Andrea Ribuoli)
 .*
 :var name=zmenu. 
 .*
@@ -15,6 +15,10 @@ F1=Help
         action='exit set' 
         varupd=no. 
 F3=Exit
+:keyi key=F4 
+        help=prompt 
+        action=prompt.
+F3=Prompt
 :keyi key=enter
       help=enter
       action=enter.
@@ -133,6 +137,14 @@ Fornisce aiuto su home.
 :pt.F3=Exit
 :pd.
 Termina il menù.
+:eparml.
+:ehelp.
+.*
+:help name=prompt.
+:parml.
+:pt.F4=Prompt
+:pd.
+Fornisce supporto.
 :eparml.
 :ehelp.
 .*
