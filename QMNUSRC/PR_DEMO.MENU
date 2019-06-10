@@ -84,7 +84,7 @@ Cambia directory
 ActionCable.server.broadcast 'web_events_channel', event: "<hr/>"
 .*
 :menui option=9
-  action='cmd ?POWER_RUBY/RAILSSVR APP(''/www/MILANO19/htdocs/Milano10Giugno2019/current'')'
+  action='cmd ?POWER_RUBY/RAILSSVR APP(/www/MILANO19/htdocs/Milano10Giugno2019/current)'
   help='menu/nohelp'. 
 Gestire Rails server 3
 .*
