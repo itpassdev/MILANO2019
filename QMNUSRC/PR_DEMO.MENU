@@ -84,12 +84,10 @@ Cambia directory
 ActionCable.server.broadcast 'web_events_channel', event: "<hr/>"
 .*
 :menui option=9
-  action='cmd POWER_RUBY/RAILSSVR APP(''/www/MILANO19/htdocs/Milano10Giugno2019/current'')'
+  action='cmd ?POWER_RUBY/RAILSSVR APP(''/www/MILANO19/htdocs/Milano10Giugno2019/current'')'
   help='menu/nohelp'. 
 Gestire Rails server 3
 .*
-POWER_RUBY/RAILSSVR ACTION(*START) APP('/www/MILANO19/htdocs/Milano10Giugno2019/current') VRM(*V24) PORT(42424)                              
-
 :menui option=15
   action='cmd paserie/itpassdev GIT_USER(itpassdev) PACKAGEN(MILANO2019)'
   help='menu/nohelp'. 
