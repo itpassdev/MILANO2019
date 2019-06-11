@@ -18,7 +18,11 @@ F3=Exit
 :keyi key=F4 
         help=prompt 
         action=prompt.
-F3=Prompt
+F4=Prompt
+:keyi key=F9 
+        help=retrieve 
+        action=retrieve.
+F9=Retrieve
 :keyi key=enter
       help=enter
       action=enter.
@@ -142,6 +146,14 @@ Fornisce aiuto su home.
 :pt.F3=Exit
 :pd.
 Termina il menù.
+:eparml.
+:ehelp.
+.*
+:help name=retrieve.
+:parml.
+:pt.F9=Retrieve
+:pd.
+Ripeti il comando.
 :eparml.
 :ehelp.
 .*
